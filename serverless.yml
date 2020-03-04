@@ -17,6 +17,8 @@ functions:
         events:
             -   http: 'ANY /'
             -   http: 'ANY /{proxy+}'
+        environment:
+            SYMFONY_DECRYPT_SECRET: ${ssm:/dev-api/symfony_decrypt_secret}
 
 # Exclude files from deployment
 package:
