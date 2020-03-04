@@ -21,6 +21,6 @@ functions:
 # Exclude files from deployment
 package:
     exclude:
-        - '.env.uat'
+        - '.env'
         - 'Dockerfile'
         - 'Makefile'
