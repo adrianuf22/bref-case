@@ -1,0 +1,8 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+add-user:
+    path: /user
+    controller: App\Controller\UserController::add
+    methods: [POST]
