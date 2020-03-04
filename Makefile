@@ -1,4 +1,4 @@
-include .env
+include .env.aws
 
 config-aws:
 	@serverless config credentials -o --aws-profile default --provider aws --key ${AWS_KEY} --secret ${AWS_SECRET}

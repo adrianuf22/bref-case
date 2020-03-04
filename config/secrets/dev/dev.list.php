@@ -1,0 +1,10 @@
+<?php
+
+return array (
+  'APP_SECRET' => NULL,
+  'DATABASE_HOST' => NULL,
+  'DATABASE_NAME' => NULL,
+  'DATABASE_PASSWORD' => NULL,
+  'DATABASE_PORT' => NULL,
+  'DATABASE_USER' => NULL,
+);

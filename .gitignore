@@ -10,4 +10,5 @@
 ###< symfony/framework-bundle ###
 
 .serverless
-.env*
+.env.*
+/config/secrets/**/*.decrypt.private.php
